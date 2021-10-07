@@ -1,0 +1,89 @@
+.cartMainContainer {
+  position: absolute;
+  width: 100%;
+  max-width: 250px;
+  height: 72px;
+  right: 1rem;
+  top: 0px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 0px 5px rgba(0, 0, 0, 0.06), 0px 0px 0px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 0px 0px 10px 10px;
+}
+
+.buttonCart {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 16px;
+  border: none;
+  width: 80%;
+  height: 40px;
+  background: #F01C4F;
+  border-radius: 8px;
+  cursor: pointer;
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+  margin: 1rem auto;
+  color: white;
+  font-weight: bold;
+}
+
+@media (max-width:768px) {
+  .cartMainContainer {
+    width: 175px;
+  }
+
+  .buttonCart {
+    width: 125px;
+  }
+}
+
+.emptyCart {
+  background-color: #fff;
+  width: 250px;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.generalContainerModal {
+  align-items: center;
+  backdrop-filter: blur(20px);
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.55) 0%, #000000 100%);
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  justify-content: center;
+  overflow-y: scroll;
+  overflow: auto;
+  padding: 1rem;
+}
+
+.modalContainer {
+  padding: 1rem;
+  display: flex;
+  flex-flow: column;
+  max-height: 80%;
+  max-width: 80%;
+}
+
+.cartButton {
+  align-items: center;
+  padding: 1rem;
+  color: #fff;
+  font-weight: bolder;
+  font-size: 1rem;
+  text-align: center;
+  background: #5AD88C;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+  margin: 0px 12px;
+}

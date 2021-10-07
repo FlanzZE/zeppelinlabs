@@ -1,0 +1,22 @@
+.productsContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.prodCatContainer {
+  display: flex;
+}
+
+.catTitle {
+  font-family: CocogooseProBlock;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 30px;
+  /* identical to box height, or 100% */
+
+  text-align: center;
+
+  color: #000000;
+
+}

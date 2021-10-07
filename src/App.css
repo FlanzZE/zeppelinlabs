@@ -1,0 +1,94 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  font-family: -apple-system,
+    BlinkMacSystemFont,
+    ‘Segoe UI’,
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    ‘Open Sans’,
+    ‘Helvetica Neue’,
+    sans-serif;
+  font-size: 16px;
+  justify-content: space-between;
+  min-height: 90vh;
+  position: relative;
+  text-align: center;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  align-items: center;
+  background-color: #000;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0 0 35px 35px;
+  color: white;
+  display: flex;
+  flex-flow: column;
+  height: 375px;
+  padding: 1rem;
+}
+
+@media (max-width:1024px) {
+  .App-header {
+    height: 275px;
+  }
+}
+
+@media (max-width:768px) {
+  .App-header {
+    padding: 0.5rem;
+    height: 175px;
+  }
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.navListContainer {
+  display: flex;
+  width: 100%;
+  padding: 1rem;
+  justify-content: space-between;
+
+}
+
+.navListContainer ul {
+  padding: 1rem;
+  display: flex;
+  width: 100%;
+  height: 60px;
+  justify-content: space-between;
+}
+
+.navListContainer li a {
+  color: white;
+}
+
+.mainContainer {
+  margin-top: -35px;
+  padding-top: 35px;
+}
+
+.footer {
+  background-color: #000;
+  height: 153px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer img {
+  width: 12rem;
+}
